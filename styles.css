@@ -16,3 +16,7 @@
 .coassinatura-faixa{margin-top:0;padding:24px 0;border-top:1px solid #C9D9CD;background:#F5F2EB}
 .coassinatura-faixa .coassinatura{margin:0}
 .footer-coassinatura{border-top:none;padding-top:0;display:none}
+
+/* v1.3 — logos maiores + UERJ tipográfico (oficial a aportar) */
+.coassinatura img{height:40px}
+.chip-uerj{font-family:var(--display,'Manrope','Source Sans 3',sans-serif);font-weight:800;font-size:26px;letter-spacing:-.01em;color:#00263E;line-height:1;align-self:center}
