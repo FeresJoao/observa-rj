@@ -38,7 +38,9 @@
 .exemplo-linha .num{min-width:44px;text-align:right;font-weight:800;font-size:14.5px;color:#00263E}
 .exemplo-nota{font-size:12px;color:#8B959C;margin-top:8px}
 
-/* coassinatura do rodapé: INCT + LEMEP + IESP-UERJ (marca negativa) */
-.footer-marcas{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:10px}
-.footer-marcas img{width:auto;height:32px;display:block}
-.footer-parent .neg{filter:brightness(0) invert(1)}
+/* coassinatura do rodapé: INCT (negativa) + LEMEP (tile) + IESP-UERJ (verde) */
+.footer-marcas{display:flex;align-items:center;gap:26px;flex-wrap:wrap;margin-top:10px}
+.footer-marcas>img{width:auto;height:38px;display:block}
+.footer-marcas .tile{background:#F5F2EB;border-radius:10px;padding:9px 14px;display:inline-flex;align-items:center}
+.footer-marcas .tile img{width:auto;height:32px;display:block}
+.footer-marcas img[alt='IESP-UERJ']{height:30px;width:auto;display:block}
